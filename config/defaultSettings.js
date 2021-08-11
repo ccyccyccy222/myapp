@@ -7,10 +7,10 @@ const Settings = {
   fixedHeader: false,
   fixSiderbar: true,
   colorWeak: false,
-  title: 'Hefu-Noodle',
+  title: '和府捞面运营管理系统',
   pwa: false,
   // logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
-  logo: 'https://i.loli.net/2021/08/10/bnMRFkJ1xA3Coji.png',
+  logo: 'https://i.loli.net/2021/08/09/3mI51U4ThqFixH6.jpg',
   iconfontUrl: '',
 };
 export default Settings;

@@ -20,7 +20,8 @@ export default () => {
         <Alert
           message={intl.formatMessage({
             id: 'pages.welcome.alertMessage',
-            defaultMessage: 'Faster and stronger heavy-duty components have been released.',
+            // defaultMessage: 'Faster and stronger heavy-duty components have been released.',
+            defaultMessage: 'Faster',
           })}
           type="success"
           showIcon
