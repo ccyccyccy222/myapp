@@ -20,8 +20,7 @@ export default () => {
         <Alert
           message={intl.formatMessage({
             id: 'pages.welcome.alertMessage',
-            // defaultMessage: 'Faster and stronger heavy-duty components have been released.',
-            defaultMessage: 'Faster',
+            defaultMessage: 'Faster and stronger heavy-duty components have been released.',
           })}
           type="success"
           showIcon
@@ -35,7 +34,9 @@ export default () => {
           <FormattedMessage id="pages.welcome.advancedComponent" defaultMessage="Advanced Form" />{' '}
           <a
             href="https://procomponents.ant.design/components/table"
+            // rel=noopener noreferrer:防止钓鱼攻击
             rel="noopener noreferrer"
+            // target="_blank":浏览器总在一个新打开、未命名的窗口中载入目标文档
             target="__blank"
           >
             <FormattedMessage id="pages.welcome.link" defaultMessage="Welcome" />
